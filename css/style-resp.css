@@ -1,0 +1,185 @@
+/*-----Responsive Style Sheet For all other browsers--------*/
+ @media (max-width: 880px){
+     .head_logo, nav.main-menu, nav.sub-menu {
+         float: none;
+         text-align: center;
+         padding: 0;
+         margin-top: 15px;
+    }
+     .menu-toggle {
+         display: block;
+         padding-top: 10px;
+         text-align: center;
+    }
+     .menus{
+         display: none;
+    }
+     .main-menu, .sub-menu {
+         margin: 0 auto;
+    }
+     nav.sub-menu ul li {
+         float: none;
+    }
+     nav.main-menu{
+         padding-bottom: 15px;
+    }
+     nav.main-menu ul li {
+         float: none;
+    }
+     nav.main-menu ul li a, nav.sub-menu ul li a {
+         padding-left: 0;
+    }
+     nav.sub-menu ul {
+         padding: 0;
+    }
+     .show {
+         display: block;
+    }
+     .dropdown {
+         margin-top: 10px;
+         background-color: transparent;
+         position: inherit;
+         text-align: center;
+         width: 150px;
+         margin-left: 0;
+         display: none;
+         margin: 0 auto;
+    }
+     .triangle {
+         display: none;
+    }
+     nav.main-menu ul li a.first:hover .dropdown {
+         display: block;
+    }
+     .footer{
+         text-align: center;
+    }
+     .footer ul {
+         display: block;
+         text-align: center;
+         margin: 0;
+         padding: 15px;
+    }
+     .footer p {
+         width: 100%;
+         text-align: justify;
+    }
+     .separation {
+         display: none;
+    }
+     .footer span[name="footer-sitename"] {
+         float: none;
+    }
+     .footer-content ul li a div.line {
+         display: block;
+         margin: 0 auto;
+         margin-top: 5px;
+         margin-bottom: 5px;
+         height: 2px;
+         width: 45%;
+    }
+     .menu-toggle-foot {
+         display: block;
+         padding-top: 20px;
+    }
+     .footer-menu {
+         display: none;
+    }
+     .show {
+         display: block;
+    }
+     .footer ul li a {
+         float: none;
+    }
+     .footer-sitename {
+         float: none;
+    }
+     .footer-content ul li a div.line {
+         display: block;
+         margin: 0 auto;
+         width: 45%;
+         height: 2px;
+         margin-top: 5px;
+         margin-bottom: 5px;
+    }
+     .menu-toggle-foot {
+         display: block;
+         padding-top: 20px;
+    }
+     .show{
+         display: block;
+    }
+     .container{
+         padding-left: 0.5cm;
+         padding-right: 0.5cm;
+    }
+     form{
+         margin-bottom: 25px;
+         padding: 20px 30px 1px 50px;
+    }
+     .content-1 {
+         float: none;
+         max-width: 100%;
+    }
+     .article-group {
+         display: block;
+         margin-top: 15px;
+    }
+     .box-1 {
+         margin-right: 0;
+         margin-bottom: 10px;
+         width: 100%;
+    }
+     .box-2 {
+         padding-bottom: 15px;
+         padding-top: 1px;
+         margin-left: 0;
+         width: 100%;
+    }
+     .sidebar {
+         float: none;
+         width: 100%;
+    }
+     .side-text h2 {
+         text-align: center;
+         width: 100%;
+    }
+     .side-text div.line {
+         margin: 0 auto;
+         width: 75%;
+    }
+     .side-text p {
+         text-align: center;
+    }
+     .hightlight-block {
+         display: block;
+         text-align: justify;
+         padding: 15px;
+         margin-top: 20px;
+    }
+     .block1, .block2, .block3 {
+         width: 100%;
+         padding: 1px;
+         display: inline;
+    }
+     .block1 p, .block2 p, .block3 p {
+         width: 85%;
+         margin: 0 auto;
+    }
+}
+/*------Styling for IE10+ browsers--------*/
+ @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     .block1, .block2, .block3 {
+         padding: 15px 0px 15px 15px;
+         width: 31.333%;
+    }
+     .footer ul li a {
+         float: left;
+    }
+}
+ @media (max-width: 780px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     .footer ul li a {
+         float: none;
+    }
+}
+ 

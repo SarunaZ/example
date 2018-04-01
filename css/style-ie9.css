@@ -1,0 +1,89 @@
+/*-----Style Sheet For IE9 Browsers--------*/
+ nav.sub-menu ul li{
+     padding-left: 15px;
+     float: right 
+}
+ nav.main-menu ul li a{
+     float: none;
+     margin: 0 10px 0 0;
+     width: 100px;
+     height: 48px;
+}
+ nav.main-menu ul li{
+     float: left;
+}
+ nav.main-menu{
+     margin-top:1em;
+     margin-right: -10px;
+}
+ .show{
+     display: block;
+}
+ .dropdown {
+     margin-top: 10px;
+     background-color: #4d4d4d;
+     position: absolute;
+     text-align: left;
+     width: 150px;
+     margin-left: -5px;
+     display: none;
+}
+ .dropdown ul li{
+     padding-top: 2.5px;
+     padding-bottom: 2.5px;
+     width: 100%;
+}
+ .dropdown ul li:hover{
+     background-color: #666666;
+}
+ .dropdown ul li a.drop-link{
+     color: #f1f1f1;
+     font-size: 9pt;
+     padding: 10px;
+}
+ .dropdown ul li a.drop-link:hover{
+     color: #f1f1f1;
+}
+ .box-1 {
+     float: left;
+}
+ .box-1 p{
+     line-height: 18px;
+}
+ .box-2{
+     float: right;
+     padding-bottom: 10px;
+}
+.box-2 h2 {
+    margin-bottom: 5px;
+}
+
+ .hightlight-block{
+     background-color: #cccccc;
+     clear: both;
+}
+ .show{
+     display: block;
+}
+#message {
+    overflow: hidden;
+    resize: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0px 70px 10px;
+    width: 92.5%;
+}
+ .block1, .block2, .block3{
+     display: inline-block;
+     width: 30%;
+}
+ .block1 p, .block2 p, .block3 p{
+     width: 100%; 
+}
+ .footer ul li a{
+     float: left;
+}
+ .footer p{
+     margin-top: 30px;
+}
+ 

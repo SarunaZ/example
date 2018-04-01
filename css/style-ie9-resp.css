@@ -1,0 +1,57 @@
+/*-----Responsive Style Sheet For IE9 Browsers--------*/
+@media (max-width: 780px){
+.head_logo, nav.main-menu, nav.sub-menu {
+	float: none;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+nav.main-menu ul li, nav.sub-menu ul li{
+	display: block;
+	text-align: center;
+	float: none;
+} 
+nav.main-menu ul li a, nav.sub-menu ul li a{
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+} 
+nav.sub-menu ul{
+	padding: 0;
+}
+nav.sub-menu ul li{
+	padding: 0;
+}
+.dropdown {
+    margin-top: 10px;
+    background-color: transparent;
+ 	position: inherit;
+ 	text-align: center;
+    width: 150px;
+ 	margin-left: 0; 
+    display: none;
+    margin: 0 auto;
+}
+.dropdown ul li:hover{
+	background-color: transparent;
+}
+.hightlight-block{
+	background-color: #cccccc;
+	clear: both;
+	height: 100%;
+}
+.show{
+	display: block;
+}
+.footer ul li a {
+    float: none;
+}
+.block1, .block2, .block3{
+	float: none;
+	width: 100%;
+}
+ .block1 p, .block2 p, .block3 p{
+ 	padding: 15px;
+ 	width: 90%;
+}
+}
